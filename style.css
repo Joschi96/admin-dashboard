@@ -1,0 +1,34 @@
+/* Normalize and reset */
+@import "../../node_modules/modern-normalize/modern-normalize.css";
+
+@font-face {
+    font-family: "pixel";
+    src:    url(/fonts/Minecraft.woff2) format("woff"),
+            url(/fonts/Minecraft.woff) format("woff"),
+            url(fonts/Minecraft.ttf) format("truetype");
+}
+:root{
+    line-height: 1.5;
+    --main-color: #081820;
+    --sec-color:#000818;
+    --text: #f8fce8;
+}
+html{
+    height: 100%;
+}
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+    margin: 0;
+}
+ol[role="list"], ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+h1, h2, h3, h4, h5 {
+    font-size: inherit;
+    font-weight: inherit;
+} 
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+/* END Normalize and reset */
